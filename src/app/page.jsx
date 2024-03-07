@@ -33,8 +33,8 @@ export default function Home() {
             </li>
           </ul>
           <div className="flex items-center gap-4 justify-around lg:justify-stretch">
-            <button className="bg-transparent border border-blue-800 text-blue-800 font-medium hover:bg-slate-800 hover:text-white rounded-lg px-4 py-3 lg:px-16 lg:py-3 lg:text-xl">Our Plans</button>
-            <button className="text-white bg-blue-700 hover:bg-slate-800 font-medium rounded-lg px-4 py-3 lg:px-14 lg:py-3 lg:text-xl">Get a Quote</button>
+            <button className="bg-transparent border border-blue-800 text-blue-800 font-medium hover:bg-slate-800 hover:text-white rounded-lg px-4 py-3 md:px-16 md:py-3 md:text-xl">Our Plans</button>
+            <button className="text-white bg-blue-700 hover:bg-slate-800 font-medium rounded-lg px-4 py-3 md:px-14 md:py-3 md:text-xl">Get a Quote</button>
           </div>
         </div>
         {/* background image 25-logo */}
@@ -83,10 +83,43 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="h-auto">
-      
+      <section className="max-w-screen-md grid md:grid-cols-2 lg:mx-60 lg:my-24 pb-10">
+        <div className=" order-2 md:order-1">
+          <h1 className="lg:text-4xl font-normal p-4 md:text-2xl text-xl text-blue-800 font-secular lg:-10">What if I have an emergency server issue?</h1>
+          <p className="font-gray-700 font-light leading-7 px-6">If the team assigned to you fails to resolve your issue. You can always escalate to the Account Manager assigned to you. AMs are senior staﬀ who are technically versed in resolving Level 3 issues on priority.</p>
+        </div>
+        {/* background image old guy playing computer */}
+        <div className="flex justify-center items-center order-1 md:order-2">
+          <div className="bg-cover bg-center md:px-20 w-32 h-28 md:w-48 md:h-44 lg:w-72 lg:h-64 " style={{backgroundImage: "url('/senior-man-playing-a-computer.svg')"}}>
+
+          </div>
+        </div>
       </section>
       
+      <section className="flex flex-row items-center justify-center mb-40">
+        <div>
+          <h1 className="lg:text-4xl text-center font-normal md:text-2xl text-2xl text-blue-800 font-secular ">Standard Plans</h1>
+           <p className="font-gray-700 font-light leading-7 mx-10 lg:mx-60 md:px-56 text-center">If the team assigned to you fails to resolve your issue. You can always escalate to the Account Manager assigned to you.</p>
+          
+        </div>
+      </section>
+      
+      <section>
+        {/* plan list here  */}
+      </section>
+
+
+      <section className="max-w-screen-sm mb-20 text-blue-800 font-medium lg:mx-40">
+        <div className="flex justify-center items-center">
+          <h1 className="text-center text-base md:text-2xl mx-8 md:mx-20">Looking for more? <br /> We got you covered; check out our dedicated or semi-dedicated support plans</h1>
+        </div>
+
+        <div className="flex items-center justify-evenly lg:justify-around md:gap-2 md:justify-center my-2">
+            <button className="bg-transparent border text-sm p-2 border-blue-800 text-blue-800 font-medium hover:bg-slate-800 hover:text-white  rounded-lg py-3 md:px-6 md:py-3 md:text-xl md:w-64">Hire a Support Team</button>
+            <button className="bg-transparent border text-sm p-2 border-blue-800 text-blue-800 font-medium hover:bg-slate-800 hover:text-white  rounded-lg py-3 md:px-6 md:py-3 md:text-xl md:w-64">Help me Choose</button>
+        </div>
+      </section>
+
    </main>
   );
 }
