@@ -1,5 +1,6 @@
 import Image from "next/image";
 import TickComponent from "./Components/TickComponent";
+import HorizontalScrollSection from "./Components/HorizondalScroll";
 
 
 export default function Home() {
@@ -106,125 +107,123 @@ export default function Home() {
 
 
       
+      <div className="mx-auto">
+        <HorizontalScrollSection>
+          <section className="mx-auto grid grid-cols-5 lg:mx-44 mb-10 lg:mb-20 text-xs lg:text-lg w-max lg:w-auto py-10">
+            <div className="col-span-2 bg-blue-900 rounded-lg mt-24 md:mt-36 lg:mt-32 w-full md:w-auto">
+              <ul className="text-white leading-7 lg:leading-9 p-2 lg:p-8 ">
+                <li><a href="">Level of Support</a></li>
+                <li><a href="">Live Chat Support (Technical - L1 & L2)</a></li>
+                <li><a href="">Live Chat Support (Sales & Pre-Sales)</a></li>
+                <li><a href="">Number of Helpdesk tickets</a></li>
+                <li><a href="">Instant Messenger Suppor</a></li>
+                <li><a href="">Number of Live Chats</a></li>
+                <li><a href="">Number of Servers supported</a></li>
+                <li><a href="">24/7 Service Monitoring</a></li>
+                <li><a href="">24/7 Proactive Server Management</a></li>
+                <li><a href="">Admin Hours</a></li>
+                <li><a href="">Setup time (except weekends)</a></li>
+                <li><a href="">Guaranteed response time</a></li>
+                <li><a href="">Average response time</a></li>
+                <li><a href="">Average resolution time</a></li>
+                <li><a href="">Server Setup, Optimisation & Hardening (one time)</a></li>
+                <li><a href="">Documentation</a></li>
+                <li><a href="">Regular Weekly meetings with Management & Team</a></li>
+                <li><a href="">Individual / Team chat with techs</a></li>
+                <li><a href="">Technical Blogs</a></li>
+                <li><a href="">Monthly pricing</a></li> 
+              </ul>
+            </div>
 
 
-      <section className="grid grid-cols-5 lg:mx-44 mb-10 lg:mb-20 text-xs lg:text-lg ">
-        <div className="col-span-2 bg-blue-900 rounded-lg mt-24 md:mt-36 lg:mt-32 ">
-          <ul className="text-white leading-5 md:leading-7 lg:leading-9 p-2 lg:p-8 whitespace-nowrap overflow-hidden">
-            <li><a href="">Level of Support</a></li>
-            <li><a href="">Live Chat Support (Technical - L1 & L2)</a></li>
-            <li><a href="">Live Chat Support (Sales & Pre-Sales)</a></li>
-            <li><a href="">Number of Helpdesk tickets</a></li>
-            <li><a href="">Instant Messenger Suppor</a></li>
-            <li><a href="">Number of Live Chats</a></li>
-            <li><a href="">Number of Servers supported</a></li>
-            <li><a href="">24/7 Service Monitoring</a></li>
-            <li><a href="">24/7 Proactive Server Management</a></li>
-            <li><a href="">Admin Hours</a></li>
-            <li><a href="">Setup time (except weekends)</a></li>
-            <li><a href="">Guaranteed response time</a></li>
-            <li><a href="">Average response time</a></li>
-            <li><a href="">Average resolution time</a></li>
-            <li><a href="">Server Setup, Optimisation & Hardening (one time)</a></li>
-            <li><a href="">Documentation</a></li>
-            <li><a href="">Regular Weekly meetings with Management & Team</a></li>
-            <li><a href="">Individual / Team chat with techs</a></li>
-            <li><a href="">Technical Blogs</a></li>
-            <li><a href="">Monthly pricing</a></li> 
-          </ul>
-        </div>
+            <div className="col-span-1 text-center bg-slate-100 rounded-lg shadow-2xl text-blue-800 pt-5 md:pt-10 w-full md:w-auto">
+              <h1 className="md:text-2xl font-bold">LEADER</h1>
+              <p className="text-blue-400">$599/ Month</p>
+              <button className="border border-blue-800 rounded-lg p-1 md:py-1 md:px-4 text-xs font-secular">Order Now</button>
+              <ul className="leading-7 lg:leading-9 py-8">
+                <li><a href="">L1, L2 & L3</a></li>
+                <li><a href="">Yes</a></li>
+                <li><a href="">No</a></li>
+                <li><a href="">150</a></li>
+                <li><a href="">Yes</a></li>
+                <li><a href="">50</a></li>
+                <li><a href="">Unlimited</a></li>
+                <li><a href="">40</a></li>
+                <li><a href="">10 Servers <span className="text-sm">($500 value)</span></a></li>
+                <li><a href="">25</a></li>
+                <li><a href="">24 Hr</a></li>
+                <li><a href="">40 Min</a></li>
+                <li><a href="">30 Min</a></li>
+                <li><a href="">12 Hr</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">No</a></li>
+                <li><a href="">Yes</a></li>
+                <li><a href="">Yes</a></li>
+                <li><a href="">No</a></li>
+                <li><a href="">$349</a></li>
+              </ul>
+            </div>
 
-
-        <div className="text-center bg-slate-100 rounded-lg shadow-2xl hover:z-10 text-blue-800 pt-5 md:pt-10">
-          <h1 className="md:text-2xl font-bold">LEADER</h1>
-          <p className="text-blue-400">$599/ Month</p>
-          <button className="border border-blue-800 rounded-lg p-1 md:py-1 md:px-4 text-xs font-secular">Order Now</button>
-          <ul className="leading-5 md:leading-7 lg:leading-9 py-8 whitespace-nowrap overflow-hidden">
-            <li><a href="">L1, L2 & L3</a></li>
-            <li><a href="">Yes</a></li>
-            <li><a href="">No</a></li>
-            <li><a href="">150</a></li>
-            <li><a href="">Yes</a></li>
-            <li><a href="">50</a></li>
-            <li><a href="">Unlimited</a></li>
-            <li><a href="">40</a></li>
-            <li><a href="">10 Servers <span className="hidden lg:inline text-sm">($500 value)</span></a></li>
-            <li><a href="">25</a></li>
-            <li><a href="">24 Hr</a></li>
-            <li><a href="">40 Min</a></li>
-            <li><a href="">30 Min</a></li>
-            <li><a href="">12 Hr</a></li>
-            <li><a href="">2</a></li>
-            <li><a href="">No</a></li>
-            <li><a href="">Yes</a></li>
-            <li><a href="">Yes</a></li>
-            <li><a href="">No</a></li>
-            <li><a href="">$349</a></li>
-          </ul>
-        </div>
-
-        <div className="text-center bg-blue-400 -my-3 rounded-lg shadow-2xl z-10 text-white pt-5 md:pt-10 ">
-          <h1 className="md:text-2xl font-bold">CHAMPION</h1>
-            <p className="pb-3">$1299/ Month</p>
-
-            <button className="border border-blue-800 rounded-lg p-1 md:py-1 md:px-4 text-xs font-secular ">Order Now</button>
-
-            <ul className="leading-5 md:leading-7 lg:leading-9 py-8 whitespace-nowrap overflow-hidden">
-              <li><a href="">L1, L2 & L3</a></li>
-              <li><a href="">Yes</a></li>
-              <li><a href="">No</a></li>
-              <li><a href="">150</a></li>
-              <li><a href="">Yes</a></li>
-              <li><a href="">50</a></li>
-              <li><a href="">Unlimited</a></li>
-              <li><a href="">40</a></li>
-              <li><a href="">20 Servers <span className="hidden lg:inline text-sm">($1000 value)</span></a></li>
-              <li><a href="">25</a></li>
-              <li><a href="">24 Hr</a></li>
-              <li><a href="">40 Min</a></li>
-              <li><a href="">30 Min</a></li>
-              <li><a href="">12 Hr</a></li>
-              <li><a href="">2</a></li>
-              <li><a href="">No</a></li>
-              <li><a href="">Yes</a></li>
-              <li><a href="">Yes</a></li>
-              <li><a href="">No</a></li>
-              <li><a href="">$1499</a></li>
-            </ul>
-        </div>
-        
-        <div className="text-center bg-slate-100 rounded-lg shadow-2xl text-blue-800 pt-5 md:pt-10">
-          <h1 className="md:text-2xl font-bold">COACH</h1>
-          <p className="text-blue-400">$3999/ Month</p>
-
-          <button className="border border-blue-800 rounded-lg p-1 md:py-1 md:px-4 text-xs font-secular">Order Now</button>
-
-          <ul className="leading-5 md:leading-7 lg:leading-9 py-8 whitespace-nowrap overflow-hidden">
-            <li><a href="#">L1, L2 & L3 + DevOps</a></li>
-            <li><a href="#">Yes</a></li>
-            <li><a href="#">No</a></li>
-            <li><a href="#">150</a></li>
-            <li><a href="#">Yes</a></li>
-            <li><a href="#">50</a></li>
-            <li><a href="#">Unlimited</a></li>
-            <li><a href="#">40</a></li>
-            <li><a href="#">40 Servers <span className="hidden lg:inline text-sm">($2000 value)</span></a></li>
-            <li><a href="#">25</a></li>
-            <li><a href="#">24 Hr</a></li>
-            <li><a href="#">40 Min</a></li>
-            <li><a href="#">30 Min</a></li>
-            <li><a href="#">12 Hr</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">No</a></li>
-            <li><a href="#">Yes</a></li>
-            <li><a href="#">Yes</a></li>
-            <li><a href="#">No</a></li>
-            <li><a href="#">$2499</a></li>
-          </ul>
-        </div>
-      </section>  
-
-
+            <div className="col-span-1 text-center bg-blue-400 -my-3  rounded-lg shadow-2xl text-white pt-5 md:pt-10 w-full md:w-auto">
+              <h1 className="md:text-2xl font-bold">CHAMPION</h1>
+                <p className="pb-3">$1299/ Month</p>
+                <button className="border border-blue-800 rounded-lg p-1 md:py-1 md:px-4 text-xs font-secular ">Order Now</button>
+                <ul className="leading-7 lg:leading-9 py-8">
+                  <li><a href="">L1, L2 & L3</a></li>
+                  <li><a href="">Yes</a></li>
+                  <li><a href="">No</a></li>
+                  <li><a href="">150</a></li>
+                  <li><a href="">Yes</a></li>
+                  <li><a href="">50</a></li>
+                  <li><a href="">Unlimited</a></li>
+                  <li><a href="">40</a></li>
+                  <li><a href="">20 Servers <span className="text-sm">($1000 value)</span></a></li>
+                  <li><a href="">25</a></li>
+                  <li><a href="">24 Hr</a></li>
+                  <li><a href="">40 Min</a></li>
+                  <li><a href="">30 Min</a></li>
+                  <li><a href="">12 Hr</a></li>
+                  <li><a href="">2</a></li>
+                  <li><a href="">No</a></li>
+                  <li><a href="">Yes</a></li>
+                  <li><a href="">Yes</a></li>
+                  <li><a href="">No</a></li>
+                  <li><a href="">$1499</a></li>
+                </ul>
+            </div>
+          
+            <div className="col-span-1 text-center bg-slate-100 rounded-lg shadow-2xl text-blue-800 pt-5 md:pt-10 w-full md:w-auto">
+              <h1 className="md:text-2xl font-bold">COACH</h1>
+              <p className="text-blue-400">$3999/ Month</p>
+              <button className="border border-blue-800 rounded-lg p-1 md:py-1 md:px-4 text-xs font-secular">Order Now</button>
+              <ul className="leading-7 lg:leading-9 py-8">
+                <li><a href="#">L1, L2 & L3 + DevOps</a></li>
+                <li><a href="#">Yes</a></li>
+                <li><a href="#">No</a></li>
+                <li><a href="#">150</a></li>
+                <li><a href="#">Yes</a></li>
+                <li><a href="#">50</a></li>
+                <li><a href="#">Unlimited</a></li>
+                <li><a href="#">40</a></li>
+                <li><a href="#">40 Servers <span className="text-sm">($2000 value)</span></a></li>
+                <li><a href="#">25</a></li>
+                <li><a href="#">24 Hr</a></li>
+                <li><a href="#">40 Min</a></li>
+                <li><a href="#">30 Min</a></li>
+                <li><a href="#">12 Hr</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">No</a></li>
+                <li><a href="#">Yes</a></li>
+                <li><a href="#">Yes</a></li>
+                <li><a href="#">No</a></li>
+                <li><a href="#">$2499</a></li>
+              </ul>
+            </div>
+          </section>  
+        </HorizontalScrollSection>
+      </div>
+      
+    
 
 
 
