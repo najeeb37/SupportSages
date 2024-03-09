@@ -83,9 +83,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="max-w-screen-md grid md:grid-cols-2 lg:mx-60 lg:my-24 pb-10">
+      <section className="max-w-screen-lg grid md:grid-cols-2 lg:mx-80 lg:my-24 pb-10">
         <div className=" order-2 md:order-1">
-          <h1 className="lg:text-4xl font-normal p-4 md:text-2xl text-xl text-blue-800 font-secular lg:-10">What if I have an emergency server issue?</h1>
+          <h1 className="lg:text-4xl font-normal p-4 md:text-2xl text-xl text-blue-800 font-secular">What if I have an <span className="absolute lg:block bg-red-300 bg-opacity-30 -z-20 -skew-y-3 mx-1 md:mx-2 lg:mx-3 h-6 w-40 md:h-7 md:w-48 lg:h-8 lg:w-72"></span>emergency server issue?</h1>
           <p className="font-gray-700 font-light leading-7 px-6">If the team assigned to you fails to resolve your issue. You can always escalate to the Account Manager assigned to you. AMs are senior staﬀ who are technically versed in resolving Level 3 issues on priority.</p>
         </div>
         {/* background image old guy playing computer */}
@@ -96,17 +96,136 @@ export default function Home() {
         </div>
       </section>
       
-      <section className="flex flex-row items-center justify-center mb-40">
+      <section className="flex flex-row items-center justify-center mb-10 lg:mb-40">
         <div>
           <h1 className="lg:text-4xl text-center font-normal md:text-2xl text-2xl text-blue-800 font-secular ">Standard Plans</h1>
            <p className="font-gray-700 font-light leading-7 mx-10 lg:mx-60 md:px-56 text-center">If the team assigned to you fails to resolve your issue. You can always escalate to the Account Manager assigned to you.</p>
-          
         </div>
       </section>
       
-      <section>
-        {/* plan list here  */}
-      </section>
+
+
+      
+
+
+      <section className="grid grid-cols-5 lg:mx-44 mb-10 lg:mb-20 text-xs lg:text-lg ">
+        <div className="col-span-2 bg-blue-900 rounded-lg mt-28 md:mt-36 lg:mt-32 ">
+          <ul className="text-white leading-9 p-2 lg:p-8">
+            <li><a href="">Level of Support</a></li>
+            <li><a href="">Live Chat Support (Technical - L1 & L2)</a></li>
+            <li><a href="">Live Chat Support (Sales & Pre-Sales)</a></li>
+            <li><a href="">Number of Helpdesk tickets</a></li>
+            <li><a href="">Instant Messenger Suppor</a></li>
+            <li><a href="">Number of Live Chats</a></li>
+            <li><a href="">Number of Servers supported</a></li>
+            <li><a href="">24/7 Service Monitoring</a></li>
+            <li><a href="">24/7 Proactive Server Management</a></li>
+            <li><a href="">Admin Hours</a></li>
+            <li><a href="">Setup time (except weekends)</a></li>
+            <li><a href="">Guaranteed response time</a></li>
+            <li><a href="">Average response time</a></li>
+            <li><a href="">Average resolution time</a></li>
+            <li><a href="">Server Setup, Optimisation & Hardening (one time)</a></li>
+            <li><a href="">Documentation</a></li>
+            <li><a href="">Regular Weekly meetings with Management & Team</a></li>
+            <li><a href="">Individual / Team chat with techs</a></li>
+            <li><a href="">Technical Blogs</a></li>
+            <li><a href="">Monthly pricing</a></li> 
+          </ul>
+        </div>
+
+
+        <div className="text-center bg-slate-100 rounded-lg shadow-2xl hover:z-10 text-blue-800 pt-5 md:pt-10">
+          <h1 className="md:text-2xl font-bold">LEADER</h1>
+          <p className="text-blue-400">$599/ Month</p>
+          <button className="border border-blue-800 rounded-lg p-1 md:py-1 md:px-4 text-xs">Order Now</button>
+          <ul className=" leading-9 p-8">
+            <li><a href="">L1, L2 & L3</a></li>
+            <li><a href="">Yes</a></li>
+            <li><a href="">No</a></li>
+            <li><a href="">150</a></li>
+            <li><a href="">Yes</a></li>
+            <li><a href="">50</a></li>
+            <li><a href="">Unlimited</a></li>
+            <li><a href="">40</a></li>
+            <li><a href="">10 Servers <span className="hidden lg:inline text-sm">($500 value)</span></a></li>
+            <li><a href="">25</a></li>
+            <li><a href="">24 Hr</a></li>
+            <li><a href="">40 Min</a></li>
+            <li><a href="">30 Min</a></li>
+            <li><a href="">12 Hr</a></li>
+            <li><a href="">2</a></li>
+            <li><a href="">No</a></li>
+            <li><a href="">Yes</a></li>
+            <li><a href="">Yes</a></li>
+            <li><a href="">No</a></li>
+            <li><a href="">$349</a></li>
+          </ul>
+        </div>
+
+        <div className="text-center bg-blue-400 -my-3 rounded-lg shadow-2xl z-10 text-white pt-5 md:pt-10 ">
+          <h1 className="md:text-2xl font-bold">CHAMPION</h1>
+            <p className="pb-3">$1299/ Month</p>
+
+            <button className="border border-blue-800 rounded-lg p-1 md:py-1 md:px-4 text-xs  ">Order Now</button>
+
+            <ul className=" leading-9 p-8">
+              <li><a href="">L1, L2 & L3</a></li>
+              <li><a href="">Yes</a></li>
+              <li><a href="">No</a></li>
+              <li><a href="">150</a></li>
+              <li><a href="">Yes</a></li>
+              <li><a href="">50</a></li>
+              <li><a href="">Unlimited</a></li>
+              <li><a href="">40</a></li>
+              <li><a href="">20 Servers <span className="hidden lg:inline text-sm">($1000 value)</span></a></li>
+              <li><a href="">25</a></li>
+              <li><a href="">24 Hr</a></li>
+              <li><a href="">40 Min</a></li>
+              <li><a href="">30 Min</a></li>
+              <li><a href="">12 Hr</a></li>
+              <li><a href="">2</a></li>
+              <li><a href="">No</a></li>
+              <li><a href="">Yes</a></li>
+              <li><a href="">Yes</a></li>
+              <li><a href="">No</a></li>
+              <li><a href="">$1499</a></li>
+            </ul>
+        </div>
+        
+        <div className="text-center bg-slate-100 rounded-lg shadow-2xl text-blue-800 pt-5 md:pt-10">
+          <h1 className="md:text-2xl font-bold">COACH</h1>
+          <p className="text-blue-400">$3999/ Month</p>
+
+          <button className="border border-blue-800 rounded-lg p-1 md:py-1 md:px-4 text-xs">Order Now</button>
+
+          <ul className="leading-9 p-8">
+            <li><a href="#">L1, L2 & L3 + DevOps</a></li>
+            <li><a href="#">Yes</a></li>
+            <li><a href="#">No</a></li>
+            <li><a href="#">150</a></li>
+            <li><a href="#">Yes</a></li>
+            <li><a href="#">50</a></li>
+            <li><a href="#">Unlimited</a></li>
+            <li><a href="#">40</a></li>
+            <li><a href="#">40 Servers <span className="hidden lg:inline text-sm">($2000 value)</span></a></li>
+            <li><a href="#">25</a></li>
+            <li><a href="#">24 Hr</a></li>
+            <li><a href="#">40 Min</a></li>
+            <li><a href="#">30 Min</a></li>
+            <li><a href="#">12 Hr</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">No</a></li>
+            <li><a href="#">Yes</a></li>
+            <li><a href="#">Yes</a></li>
+            <li><a href="#">No</a></li>
+            <li><a href="#">$2499</a></li>
+          </ul>
+        </div>
+      </section>  
+
+
+
 
 
       <section className="max-w-screen-sm mb-20 text-blue-800 font-medium lg:mx-40">
