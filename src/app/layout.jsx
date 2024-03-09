@@ -102,11 +102,11 @@ export default function RootLayout({ children }) {
                 <h1 className="text-2xl text-transparent font-bold bg-clip-text bg-gradient-to-r to-indigo-500 via-cyan-200 from-sky-500">SupportSages</h1>
                 
                 {/* need to import Facebook Icons */}
-                <div className="grid grid-cols-4 text-white font-bold text-lg">
-                  <a href="">F</a>
-                  <a href="">M</a>
-                  <a href="">L</a>
-                  <a href="">X</a>
+                <div className="grid grid-cols-4 text-white gap-2 font-bold text-lg">
+                  <a href="#"><Image src="/facebook.svg" width={21} height={21} /></a>
+                  <a href="#"><Image src="/messenger.svg" width={21} height={21} /></a>
+                  <a href="#"><Image src="/linkedin.svg" width={21} height={21} /></a>
+                  <a href="#"><Image src="/twitter.svg" width={21} height={21} /></a>
                 </div>
                 <button className="border border-green-400 font-medium text-green-400 py-1.5 px-1 rounded-lg hover:bg-slate-50"><span className="flex items-center me-3"><span className="flex w-2.5 h-2.5 bg-green-400 rounded-full me-1.5 flex-shrink-0 mx-3"></span>Live Chat</span></button>
               </div>
