@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <header>
-          <nav className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4 ">
+          <nav className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-1.5 md:p-4">
               <a href="" className="flex items-center">
                 <Image src="/SS_Logo big size.svg" width={200} height={35} priority alt="Support Sages"/>
               </a>
