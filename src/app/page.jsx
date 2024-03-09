@@ -83,7 +83,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="max-w-screen-lg grid md:grid-cols-2 lg:mx-80 lg:my-24 pb-10">
+      <section className="max-w-screen-lg grid md:grid-cols-2 lg:my-24 pb-10">
         <div className=" order-2 md:order-1">
           <h1 className="lg:text-4xl font-normal p-4 md:text-2xl text-xl text-blue-800 font-secular">What if I have an <span className="absolute lg:block bg-red-300 bg-opacity-30 -z-20 -skew-y-3 mx-1 md:mx-2 lg:mx-3 h-6 w-40 md:h-7 md:w-48 lg:h-8 lg:w-72"></span>emergency server issue?</h1>
           <p className="font-gray-700 font-light leading-7 px-6">If the team assigned to you fails to resolve your issue. You can always escalate to the Account Manager assigned to you. AMs are senior staﬀ who are technically versed in resolving Level 3 issues on priority.</p>
@@ -96,10 +96,10 @@ export default function Home() {
         </div>
       </section>
       
-      <section className="flex flex-row items-center justify-center mb-10 lg:mb-40">
+      <section className="max-w-screen-lg flex flex-row items-center justify-center mb-10 lg:mb-40">
         <div>
           <h1 className="lg:text-4xl text-center font-normal md:text-2xl text-2xl text-blue-800 font-secular ">Standard Plans</h1>
-           <p className="font-gray-700 font-light leading-7 mx-10 lg:mx-60 md:px-56 text-center">If the team assigned to you fails to resolve your issue. You can always escalate to the Account Manager assigned to you.</p>
+           <p className="font-gray-700 font-light leading-7 mx-10 md:px-56 text-center">If the team assigned to you fails to resolve your issue. You can always escalate to the Account Manager assigned to you.</p>
         </div>
       </section>
       
@@ -139,7 +139,7 @@ export default function Home() {
           <h1 className="md:text-2xl font-bold">LEADER</h1>
           <p className="text-blue-400">$599/ Month</p>
           <button className="border border-blue-800 rounded-lg p-1 md:py-1 md:px-4 text-xs">Order Now</button>
-          <ul className=" leading-9 p-8">
+          <ul className=" leading-9 p-8 ">
             <li><a href="">L1, L2 & L3</a></li>
             <li><a href="">Yes</a></li>
             <li><a href="">No</a></li>
