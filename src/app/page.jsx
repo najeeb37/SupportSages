@@ -109,8 +109,8 @@ export default function Home() {
 
 
       <section className="grid grid-cols-5 lg:mx-44 mb-10 lg:mb-20 text-xs lg:text-lg ">
-        <div className="col-span-2 bg-blue-900 rounded-lg mt-28 md:mt-36 lg:mt-32 ">
-          <ul className="text-white leading-9 p-2 lg:p-8">
+        <div className="col-span-2 bg-blue-900 rounded-lg mt-24 md:mt-36 lg:mt-32 ">
+          <ul className="text-white leading-5 md:leading-7 lg:leading-9 p-2 lg:p-8 whitespace-nowrap overflow-hidden">
             <li><a href="">Level of Support</a></li>
             <li><a href="">Live Chat Support (Technical - L1 & L2)</a></li>
             <li><a href="">Live Chat Support (Sales & Pre-Sales)</a></li>
@@ -139,7 +139,7 @@ export default function Home() {
           <h1 className="md:text-2xl font-bold">LEADER</h1>
           <p className="text-blue-400">$599/ Month</p>
           <button className="border border-blue-800 rounded-lg p-1 md:py-1 md:px-4 text-xs">Order Now</button>
-          <ul className=" leading-9 p-8 ">
+          <ul className="leading-5 md:leading-7 lg:leading-9 py-8 whitespace-nowrap overflow-hidden">
             <li><a href="">L1, L2 & L3</a></li>
             <li><a href="">Yes</a></li>
             <li><a href="">No</a></li>
@@ -169,7 +169,7 @@ export default function Home() {
 
             <button className="border border-blue-800 rounded-lg p-1 md:py-1 md:px-4 text-xs  ">Order Now</button>
 
-            <ul className=" leading-9 p-8">
+            <ul className="leading-5 md:leading-7 lg:leading-9 py-8 whitespace-nowrap overflow-hidden">
               <li><a href="">L1, L2 & L3</a></li>
               <li><a href="">Yes</a></li>
               <li><a href="">No</a></li>
@@ -199,7 +199,7 @@ export default function Home() {
 
           <button className="border border-blue-800 rounded-lg p-1 md:py-1 md:px-4 text-xs">Order Now</button>
 
-          <ul className="leading-9 p-8">
+          <ul className="leading-5 md:leading-7 lg:leading-9 py-8 whitespace-nowrap overflow-hidden">
             <li><a href="#">L1, L2 & L3 + DevOps</a></li>
             <li><a href="#">Yes</a></li>
             <li><a href="#">No</a></li>
