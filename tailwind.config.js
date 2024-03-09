@@ -13,6 +13,7 @@ module.exports = {
       },
       fontFamily: {
         secular: ['Secular One', 'sans-serif'],
+        overpass: ['Overpass', 'sans-serif'],
       },
       spacing: {
         '446': '446px',
