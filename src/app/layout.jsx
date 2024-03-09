@@ -60,7 +60,7 @@ export default function RootLayout({ children }) {
             <div className=" grid grid-cols-2 mx-10 md:grid-cols-3 lg:mx-40 lg:grid-cols-5  py-10 text-xs ">
               <div className="md:pl-10">
                 <ul className="lg:leading-9 text-white text-sm font-light">
-                  <li className="py-4 text-blue-400 font-medium text-base ">Company</li>
+                  <li className="py-4 text-blue-400 font-bold text-base font-overpass">Company</li>
                   <li className="hover:text-blue-700"><a href="">About Us</a></li>
                   <li className="hover:text-blue-700"><a href="">Certifications</a></li>
                   <li className="hover:text-blue-700"><a href="">Life@SS</a></li>
@@ -73,7 +73,7 @@ export default function RootLayout({ children }) {
 
               <div>
                 <ul className="lg:leading-9 text-white text-sm font-light">
-                  <li className="py-4 text-blue-400 font-medium text-base ">Hire A Service</li>
+                  <li className="py-4 text-blue-400 font-bold text-base font-overpass">Hire A Service</li>
                   <li className="hover:text-blue-700"><a href="">Dedicated Support Team</a></li>
                   <li className="hover:text-blue-700"><a href="">Quasi-dedicated Support Team</a></li>
                   <li className="hover:text-blue-700"><a href="">Hire a DevOps Engineer</a></li>
@@ -86,8 +86,8 @@ export default function RootLayout({ children }) {
               </div>
 
               <div>
-                <ul className="lg:leading-9 text-white text-sm font-light">
-                  <li className="py-4 text-blue-400 font-medium text-base ">Technologies</li>
+                <ul className="lg:leading-9 text-white text-sm font-light font-overpass">
+                  <li className="py-4 text-blue-400 font-bold text-base ">Technologies</li>
                   <li className="hover:text-blue-700"><a href="">Microsoft Azure Expert</a></li>
                   <li className="hover:text-blue-700"><a href="">AWS Cloud Expert</a></li>
                   <li className="hover:text-blue-700"><a href="">Managed VPS Linux</a></li>
@@ -99,16 +99,16 @@ export default function RootLayout({ children }) {
 
               <div className="col-span-2 text-center flex flex-col items-center lg:pt-5 space-y-3 lg:col-span-2 md:col-span-3 md:mt-5">
                 <Image src="/Shape-25.svg" width={120} height={120} alt="25"/>
-                <h1 className="text-2xl text-transparent font-bold bg-clip-text bg-gradient-to-r to-indigo-500 via-cyan-200 from-sky-500">SupportSages</h1>
+                <h1 className="text-2xl text-transparent font-extrabold bg-clip-text bg-gradient-to-r to-indigo-500 via-cyan-200 from-sky-500 font-overpass">SupportSages</h1>
                 
                 {/* need to import Facebook Icons */}
-                <div className="grid grid-cols-4 text-white gap-2 font-bold text-lg">
+                <div className="grid grid-cols-4 text-white gap-3 font-bold text-lg">
                   <a href="#"><Image src="/facebook.svg" width={21} height={21} alt="facebook-logo"/></a>
                   <a href="#"><Image src="/messenger.svg" width={21} height={21} alt="messenger-logo"/></a>
                   <a href="#"><Image src="/linkedin.svg" width={21} height={21} alt="linkedin-logo"/></a>
                   <a href="#"><Image src="/twitter.svg" width={21} height={21} alt="twitter-X-logo"/></a>
                 </div>
-                <button className="border border-green-400 font-medium text-green-400 py-1.5 px-1 rounded-lg hover:bg-slate-50"><span className="flex items-center me-3"><span className="flex w-2.5 h-2.5 bg-green-400 rounded-full me-1.5 flex-shrink-0 mx-3"></span>Live Chat</span></button>
+                <button className="border border-green-400 font-medium text-green-400 py-1.5 px-1 rounded-lg hover:bg-slate-50 font-overpass"><span className="flex items-center me-3"><span className="flex w-2.5 h-2.5 bg-green-400 rounded-full me-1.5 flex-shrink-0 mx-3"></span>Live Chat</span></button>
               </div>
             </div>
               

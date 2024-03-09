@@ -33,8 +33,8 @@ export default function Home() {
             </li>
           </ul>
           <div className="flex items-center gap-4 justify-around lg:justify-stretch">
-            <button className="bg-transparent border border-blue-800 text-blue-800 font-medium hover:bg-slate-800 hover:text-white rounded-lg px-4 py-3 md:px-16 md:py-3 md:text-xl">Our Plans</button>
-            <button className="text-white bg-blue-700 hover:bg-slate-800 font-medium rounded-lg px-4 py-3 md:px-14 md:py-3 md:text-xl">Get a Quote</button>
+            <button className="bg-transparent border border-blue-800 text-blue-800 font-medium hover:bg-slate-800 hover:text-white rounded-lg px-4 py-3 md:px-16 md:py-3 md:text-xl font-secular">Our Plans</button>
+            <button className="text-white bg-blue-700 hover:bg-slate-800 font-medium rounded-lg px-4 py-3 md:px-14 md:py-3 md:text-xl font-secular">Get a Quote</button>
           </div>
         </div>
         {/* background image 25-logo */}
@@ -138,7 +138,7 @@ export default function Home() {
         <div className="text-center bg-slate-100 rounded-lg shadow-2xl hover:z-10 text-blue-800 pt-5 md:pt-10">
           <h1 className="md:text-2xl font-bold">LEADER</h1>
           <p className="text-blue-400">$599/ Month</p>
-          <button className="border border-blue-800 rounded-lg p-1 md:py-1 md:px-4 text-xs">Order Now</button>
+          <button className="border border-blue-800 rounded-lg p-1 md:py-1 md:px-4 text-xs font-secular">Order Now</button>
           <ul className="leading-5 md:leading-7 lg:leading-9 py-8 whitespace-nowrap overflow-hidden">
             <li><a href="">L1, L2 & L3</a></li>
             <li><a href="">Yes</a></li>
@@ -167,7 +167,7 @@ export default function Home() {
           <h1 className="md:text-2xl font-bold">CHAMPION</h1>
             <p className="pb-3">$1299/ Month</p>
 
-            <button className="border border-blue-800 rounded-lg p-1 md:py-1 md:px-4 text-xs  ">Order Now</button>
+            <button className="border border-blue-800 rounded-lg p-1 md:py-1 md:px-4 text-xs font-secular ">Order Now</button>
 
             <ul className="leading-5 md:leading-7 lg:leading-9 py-8 whitespace-nowrap overflow-hidden">
               <li><a href="">L1, L2 & L3</a></li>
@@ -197,7 +197,7 @@ export default function Home() {
           <h1 className="md:text-2xl font-bold">COACH</h1>
           <p className="text-blue-400">$3999/ Month</p>
 
-          <button className="border border-blue-800 rounded-lg p-1 md:py-1 md:px-4 text-xs">Order Now</button>
+          <button className="border border-blue-800 rounded-lg p-1 md:py-1 md:px-4 text-xs font-secular">Order Now</button>
 
           <ul className="leading-5 md:leading-7 lg:leading-9 py-8 whitespace-nowrap overflow-hidden">
             <li><a href="#">L1, L2 & L3 + DevOps</a></li>
@@ -234,8 +234,8 @@ export default function Home() {
         </div>
 
         <div className="flex items-center justify-evenly lg:justify-around md:gap-2 md:justify-center my-2">
-            <button className="bg-transparent border text-sm p-2 border-blue-800 text-blue-800 font-medium hover:bg-slate-800 hover:text-white  rounded-lg py-3 md:px-6 md:py-3 md:text-xl md:w-64">Hire a Support Team</button>
-            <button className="bg-transparent border text-sm p-2 border-blue-800 text-blue-800 font-medium hover:bg-slate-800 hover:text-white  rounded-lg py-3 md:px-6 md:py-3 md:text-xl md:w-64">Help me Choose</button>
+            <button className="bg-transparent border text-sm p-2 border-blue-800 text-blue-800 font-medium hover:bg-slate-800 hover:text-white  rounded-lg py-3 md:px-6 md:py-3 md:text-xl md:w-64 font-secular">Hire a Support Team</button>
+            <button className="bg-transparent border text-sm p-2 border-blue-800 text-blue-800 font-medium hover:bg-slate-800 hover:text-white  rounded-lg py-3 md:px-6 md:py-3 md:text-xl md:w-64 font-secular">Help me Choose</button>
         </div>
       </section>
 
